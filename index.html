@@ -1,0 +1,436 @@
+<!doctype html>
+<html lang="ko">
+
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>springlight</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="style.css">
+   
+
+    <!-- 구글 폰트 -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&family=Work+Sans:wght@500&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap" rel="stylesheet">
+
+
+</head>
+
+<body data-bs-spy="scroll" data-bs-target="#nav-menu">
+
+    <!-- 네비게이션 영역 시작 -->
+    <nav class="navbar bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#main">
+            <i class="bi bi-flower1"></i>
+            Springlight
+          </a>
+        </div>
+      </nav>
+      <nav class="navbar navbar-expand-lg bg-body-tertiary sticky-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">MAIN</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarText">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#about-defination">defination</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#beauty-section">make up</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#fashion-section">fashion</a>
+              </li>
+            </ul>
+            <span class="navbar-text">
+              movecurrent
+            </span>
+          </div>
+        </div>
+      </nav>
+
+<!-- 헤더 영역 시작 -->
+<header id="main" class="d-flex flex-column justify-content-center align-items-center vh-100 text-white">
+
+    <h1 class="display-3 fw-bold mb-5">Spring light</h1>
+    <h4 class="fs-4 mb-3 korean-text">퍼스널컬러, 봄웜라이트</h4>
+    <p class="lead mb-5 korean-text">나에게 맞는 뷰티 정보를 간편하게! </p>
+   
+    <!-- Button trigger modal -->
+<button type="button" class="btn btn-outline-warning rounded-pill" data-bs-toggle="modal" data-bs-target="#exampleModal">
+    인공지능 퍼스널컬러 진단 
+  </button>
+  
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+            <a href="https://mycolor.kr/" target="_blank">https://mycolor.kr/</a>
+            <br>
+             <img src="pages/modal.jpg" alt="인공지능 퍼스널컬러 진단" style="width: 100%; height: auto;" />
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  </header>
+
+   <!-- 퍼스널 컬러 설명 섹션 시작 -->
+   <section class="container py-5" id="about-defination">
+
+    <div class="text-center py-5">
+        <h2 class="fw-bold"> Personal color? </h2>
+        <p class="lead text-muted korean-text">퍼스널 컬러는 개인의 피부 톤, 눈 색깔, 머리카락 색 등 신체의 자연색에 조화를 이루는 색상을 의미합니다. 퍼스널 컬러는 주로 봄, 여름, 가을, 겨울의 네 가지 시즌 타입으로 구분되며, 색상의 밝기, 채도, 쿨/웜 등을 기준으로 분류됩니다. </p>
+    </div>
+
+    <div class="row justify-content-center align-items-center mb-5">
+        <div class="col-md-5">
+            <img src="pages/main_6.jpeg" alt="퍼스널 컬러 분류표" class="img-thumbnail">
+        </div>
+        <div class="col-md-7 col-lg-5 px-lg-5">
+            <h3 class="fw-bold mb-3">Spring warm light type</h3> 
+            <p class="lh-lg korean-text"> 봄웜라이트 타입은 퍼스널 컬러 중 봄 타입에 속하는 분류로, 밝고 따듯한 색조를 특징으로 합니다. 봄웜라이트 타입은 일반적으로 따듯한 피부 톤과 밝은 눈, 머리카락 색상을 가진 사람들에게 어울리는 타입입니다. </p>
+            <p class="lh-lg korean-text"> 노란기가 섞인 부드러운 파스텔톤이 잘 어울리고, 선명한 컬러보다는 자연스럽고 대비가 적은 색상이 잘 어울립니다. 봄웜라이트 타입인 대표적인 연예인으로는 송혜교님, 박보영님, 소녀시대 윤아님, 수지님이 있습니다.  
+               .</p>
+        </div>
+    </div>
+
+</section>
+<!-- 퍼스널 컬러 소개 섹션 끝 -->
+
+ <!-- 연예인 섹션 시작 -->
+ <section class="py-5" id="celebrity_section" style="background-color: #3A4161;">
+
+  <div class="container overflow-hidden">
+      <div class="text-center text-white py-5">
+          <h2 class="fw-bold mb-3">Spring warm light type</h2>
+          <p>Korean Celebrity</p>
+      </div>
+
+      <div class="row pb-5 g-4">
+        <div class="col-sm-6 col-lg-2">
+            <div class="card">
+                <img src="pages/actor_2.jpg" alt="배우 사진 1" class="card-img-top img-fluid">
+                <div class="card-body">
+                    <h5 class="card-title text-center korean-text">정채연</h5>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-6 col-lg-2">
+            <div class="card">
+                <img src="pages/actor_1.jpg" alt="배우 사진 2" class="card-img-top img-fluid">
+                <div class="card-body">
+                    <h5 class="card-title text-center korean-text">레드벨벳 웬디</h5>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-6 col-lg-2">
+            <div class="card">
+                <img src="pages/actor_7.jpg" alt="배우 사진3" class="card-img-top img-fluid">
+                <div class="card-body">
+                    <h5 class="card-title text-center korean-text" >아이유</h5>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-6 col-lg-2">
+            <div class="card">
+                <img src="pages/actor_4.jpg" alt="배우 사진" class="card-img-top img-fluid">
+                <div class="card-body">
+                    <h5 class="card-title text-center korean-text">오마이걸 아린</h5>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-6 col-lg-2">
+          <div class="card">
+              <img src="pages/actor_5.jpg" alt="배우 사진" class="card-img-top img-fluid">
+              <div class="card-body">
+                  <h5 class="card-title text-center korean-text">신세경</h5>
+              </div>
+          </div>
+      </div>
+      <div class="col-sm-6 col-lg-2">
+        <div class="card">
+            <img src="pages/actor_6.jpg" alt="배우 사진" class="card-img-top img-fluid">
+            <div class="card-body">
+                <h5 class="card-title text-center korean-text">송혜교</h5>
+            </div>
+        </div>
+    </div>
+    
+    </div>
+      
+</section>
+<!-- 연예인 섹션 끝 -->
+
+
+<section class="youtube-section mb-5">
+    <h3>SPRINGLIGHT INFLUENCER</h3>
+
+    <div class="youtube-content">
+        <div class="youtube-item">
+            <img src="pages/haeni.jpg" alt="유튜버 해니">
+            <div>
+                <h3 class="korean-text">haeni 해니 beauty</h3>
+                <p class="korean-text">구독자 38.5만명, 뷰티 유튜버</p>
+                <a href="https://www.youtube.com/watch?v=dvq5yQQVT_4&t=27s" target="_blank" class="btn-link">채널 보기</a>
+            </div>
+        </div>
+
+        <div class="youtube-item">
+            <img src="pages/hyobly.jpg" alt="유튜버 효블리">
+            <div>
+                <h3 class="korean-text">효블리 Hyovely</h3>
+                <p class="korean-text">구독자 6.53만명, 뷰티 유튜버</p>
+                <a href="https://www.youtube.com/watch?v=ltTHd3vmYvg&t=866s" target="_blank" class="btn-link">채널 보기</a>
+            </div>
+        </div>
+
+        <div class="youtube-item">
+            <img src="pages/dahyun.jpg" alt="유튜버 다현쌤">
+            <div>
+                <h3 class="korean-text">다현쌤</h3>
+                <p class="korean-text">구독자 5.42만명, 퍼스널컬러 유튜버</p>
+                <a href="https://www.youtube.com/watch?v=KRx_-an-OG4&t=38s" target="_blank" class="btn-link">채널 보기</a>
+            </div>
+        </div>
+
+        <div class="youtube-item">
+            <img src="pages/ure.jpg" alt="유튜버 유이레">
+            <div>
+                <h3 class="korean-text">유이레컬러 One and only</h3>
+                <p class="korean-text">구독자 10.3만명, 퍼스널컬러 유튜버</p>
+                <a href="https://www.youtube.com/watch?v=MGAwGg8sITA" target="_blank" class="btn-link">채널 보기</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+
+ <!-- 뷰티 안내 섹션 시작 -->
+ <section class="container overflow-hidden py-5" id="beauty-section">
+
+  <div class="text-center py-5">
+      <h2 class="fw-bold mb-3">MAKE UP</h2>
+      <p class="lead text-muted korean-text">봄웜라이트에게 추천하는 메이크업 스타일</p>
+  </div>
+
+  <div class="row mb-5 g-4">
+      <div class="col-md-6">
+        <a href="https://03clap.github.io/eyemakeup/" target="_blank"
+        class="text-decoration-none text-dark">
+          <div class="card-hover shadow rounded p-4">
+              <div class="d-flex align-items-center py-3">
+                  <img src="pages/makeup_EYE.jpg" alt="서비스 1" class="rounded-circle">
+                  <div class="ms-3">
+                      <h3 class="fw-bold">EYE</h3>
+                      <p class="text-muted korean-text">카드를 클릭하시면 관련 정보를 볼 수 있습니다.</p>
+                  </div>
+              </div>
+              <p class="korean-text">봄웜라이트 타입이신 분들은 대체로 피부가 밝고 따뜻한 톤을 가지고 있으며 이러한 피부 톤에는 피치/코랄/베이지 계열의 아이메이크업이 잘 어울립니다. </p>
+          </div>
+          </a>
+      </div>
+
+      <div class="col-md-6">
+          <div class="card-hover shadow rounded p-4">
+            <a href="https://03clap.github.io/lipmakeup/" target="_blank"
+            class="text-decoration-none text-dark">
+              <div class="d-flex justify-content-end align-items-center py-3">
+                  <div class="text-end me-3">
+                      <h3 class="fw-bold">LIP</h3>
+                      <p class="text-muted korean-text">카드를 클릭하시면 관련 정보를 볼 수 있습니다.</p>
+                  </div>
+                  <img src="pages/makeup_Lip.png" alt="서비스 2" class="rounded-circle">
+              </div>
+              <p class="korean-text">봄웜라이트 타입은 밝고 따듯한 피치 코랄 색, 연한 핑크에 살짝의 오렌지 톤이 섞인 색상인 살몬 핑크 등의 색상이 립 메이크업에 잘 어울립니다.</p>
+          </div>
+        </a>
+      </div>
+
+      <div class="col-md-6">
+          <div class="card-hover shadow rounded p-4">
+            <a href="https://www.dasique.co.kr/product/detail.html?product_no=65&cate_no=71&display_group=1" target="_blank"
+            class="text-decoration-none text-dark">
+              <div class="d-flex align-items-center py-3">
+                  <img src="pages/hair_2.jpg" alt="서비스 3" class="rounded-circle">
+                  <div class="ms-3">
+                      <h3 class="fw-bold">HAIR</h3>
+                      <p class="text-muted korean-text">카드를 클릭하시면 관련 정보를 볼 수 있습니다.</p>
+                  </div>
+              </div>
+              <p class="korean-text">머리 색상은 부드러운 베이지 톤의 웜 베이지, 따뜻한 느낌의 밝은 갈색인 라이트 브라운, 캐러멜 톤의 갈색인 캐러멜 브라운 등이 잘 어울립니다. </p>
+          </div>
+        </a>
+      </div>
+
+      <div class="col-md-6">
+          <div class="card-hover shadow rounded p-4">
+            <a href="https://www.dasique.co.kr/product/detail.html?product_no=65&cate_no=71&display_group=1" target="_blank"
+            class="text-decoration-none text-dark">
+              <div class="d-flex justify-content-end align-items-center py-3">
+                  <div class="text-end me-3">
+                      <h3 class="fw-bold">BLUSH</h3>
+                      <p class="text-muted korean-text">카드를 클릭하시면 관련 정보를 볼 수 있습니다. </p>
+                  </div>
+                  <img src="pages/blush.jpg" alt="서비스 4" class="rounded-circle">
+              </div>
+              <p class="korean-text">블러셔의 색상은 아이섀도우와 비슷하게 애프리콧, 코랄, 라이트 핑크 등의 색상이 잘 어울리고, 뽀얀 느낌이 드는 블러셔가 아주 잘 어울립니다. </p>
+          </div>
+        </a>
+      </div>
+  </div>
+</section>
+<!-- 뷰티 안내 섹션 끝 -->
+
+ <!-- 패션 섹션 시작 -->
+<section class="container overflow-hidden py-5" id="fashion-section" style="background-color: #3A4161;">
+    <div class="text-center py-5">
+        <a href="https://03clap.github.io/fashion/" target="_blank"
+        class="text-decoration-none text-dark">
+        <h2 class="fw-bold text-white">FASHION</h2>
+        <h5 class="lead text-white korean-text">봄웜라이트에게 잘 어울리는 패션 스타일</h5>
+        <p class="lead text-muted korean-text">*배경을 클릭하시면 패션 페이지로 이동합니다.</p>
+    </div>
+    <div class="row justify-content-center">
+    <div class="row justify-content-center">
+        <div class="col-md-3 mb-4">
+            <div class="card">
+                <img src="pages/fashion_s3.jpg" class="card-img-top" alt="spring">
+                <div class="card-body">
+                    <h5 class="card-title">SPRING</h5>
+                    <p class="card-text korean-text">봄웜라이트 봄 패션 스타일</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3 mb-4">
+            <div class="card">
+                <img src="pages/fashion_su2.jpg" class="card-img-top" alt="SUMMER">
+                <div class="card-body">
+                    <h5 class="card-title">SUMMER</h5>
+                    <p class="card-text korean-text">봄웜라이트 여름 패션 스타일</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3 mb-4">
+            <div class="card">
+                <img src="pages/fashion_f2.jpg" class="card-img-top" alt="autumn">
+                <div class="card-body">
+                    <h5 class="card-title">AUTUMN</h5>
+                    <p class="card-text korean-text">봄웜라이트 가을 패션 스타일</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3 mb-4">
+            <div class="card">
+                <img src="pages/fashion_w1.jpg" class="card-img-top" alt="winter">
+                <div class="card-body">
+                    <h5 class="card-title">WINTER</h5>
+                    <p class="card-text korean-text">봄웜라이트 겨울 패션 스타일</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    </a>
+    </div>
+</section>
+<!-- 패션 섹션 끝 -->
+
+
+
+<!-- 뉴스 섹션 시작 -->
+<section class="py-5" id="news">
+    <div class="container">
+        <div class="row p-4 align-items-center">
+
+            <div class="col-lg-9 text-dark">
+                <h2 class="fw-bold mb-3 korean-text">아직 퍼스널컬러에 대해 잘 모르시겠다면?</h2>
+                <p class="korean-text">옆에 있는 '정보' 버튼을 클릭하셔서, 유튜버 '유이레 컬러'님의 퍼스널컬러 자가 진단 영상을 보고 오세요! 궁금한 점이 해소되고 퍼스널 컬러에 대해 간단하게 알 수 있을 것입니다.</p>
+            </div>
+
+            <div class="col-lg-3">
+                <!-- Button trigger modal -->
+                <button type="button" class="btn btn-warning px-4" data-bs-toggle="modal" data-bs-target="#newsModal">
+                    정보
+                </button>
+
+                <!-- Modal -->
+                <div class="modal fade" id="newsModal" tabindex="-1" aria-labelledby="newsModalTitle" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered modal-lg">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h1 class="modal-title fs-5" id="newsModalTitle">퍼스널컬러 자가진단</h1>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="닫기"></button>
+                            </div>
+                            <div class="modal-body">
+                                <div class="ratio ratio-16x9">
+                                    <iframe src="https://www.youtube.com/embed/V5x2FYwlhRo?si=biiCBcQhJWro36Rf" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Modal 끝 -->
+            </div>
+        </div>
+    </div>
+</section>
+<!-- 뉴스 섹션 끝 -->
+
+<!-- 풋터 시작 -->
+<footer class="text-muted" style="background-color: #FFE6A1;">
+    <div class="container py-5">
+        <div class="row">
+            <div class="col-md-6">
+                <h5 class="mb-4 korean-text">웹페이지 정보</h5>
+                <p class="korean-text">서울여자대학교 웹페이지저작기초 수업 01분반 기말 과제</p>
+                <p class="korean-text">서울여자대학교 www.swu.ac.kr</p>
+            </div>
+            <div class="col-md-6">
+                <h5 class="mb-4 korean-text">봄라이트 타입을 제외한 퍼스널컬러</h5>
+                <p class="korean-text">퍼스널컬러는 크게 봄, 여름, 가을, 겨울의 4가지 타입으로 나뉘며, 각 타입에 따라 어울리는 색상이 다릅니다. 예를 들어, 봄 타입은 밝고 따뜻한 색상이 어울리고, 겨울 타입은 차갑고 선명한 색상이 어울립니다.</p>
+                <pre class="korean-text">여름 라이트 (Summer Light): 시원하고 연한 피부톤과 부드러운 색조
+여름 뮤트 (Summer Muted): 시원하고 톤다운된 색조
+가을 뮤트 (Autumn Muted): 따뜻하고 톤다운된 색상
+가을 딥 (Autumn Deep): 따뜻하고 짙은 색상
+겨울 브라이트 (Winter Bright): 선명하고 밝은 색상
+겨울 다크 (Winter Dark): 선명하고 깊은 색상</pre>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid bg-dark text-center py-4">
+        <p class="mb-0 english-text">Copyright <i class="bi bi-c-circle"></i> 2024 Designed by <a
+                href="https://www.codethem.co.kr/" target="_blank"
+                class="work-sans-font link-warning text-decoration-none">movecurrent</a></p>
+    </div>
+</footer>
+<!-- 풋터 끝 -->
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

@@ -1,0 +1,158 @@
+
+    body {
+        font-family: "Work Sans", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 500;
+        font-style: normal;
+        background-color: #fffaeb;
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    .work-sans-serif {
+        font-family: "Work Sans", sans-serif;
+    }
+
+    .korean-text {
+        font-family: "Noto Sans KR", sans-serif;
+        /* 한국어 글꼴 설정 */
+    }
+
+    .english-text {
+        font-family: "Work Sans", sans-serif;
+        /* 영어 글꼴 설정 */
+    }
+
+    /* 네비게이션 영역 */
+    .nav-link:hover,
+    .nav-link.active {
+        color: #3a4161 !important;
+    }
+
+
+    /* 헤더 영역 */
+    header {
+        background-image: linear-gradient(to top, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.2)), url(pages/main_5.jpeg);
+        background-size: contain;
+        background-position: center top;
+        background-attachment: fixed;
+    }
+
+    .image-container {
+        width: 100%;
+        height: 0;
+        padding-top: 100%;
+        /* 이미지의 가로 세로 비율을 유지하기 위해 사용 */
+        position: relative;
+        overflow: hidden;
+    }
+
+    .image-container img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: auto;
+        /* 이미지의 높이를 자동으로 조절하여 부모 요소에 맞게 조절 */
+    }
+
+    
+    .card-hover img {
+        max-width: 50%;
+        height: auto;
+    }
+    
+    #blog .card {
+        transition: transform 0.2s ease-in-out;
+        
+    }
+    
+    #blog .card:hover {
+        transform: scale(1.05);
+    }
+    
+    #blog .card-img-top {
+        height: 200px;
+        object-fit: cover;
+    }
+    #fashion-section {
+        padding: 50px 0;
+        border-radius: 20px;
+        overflow: hidden; 
+    }
+    .card {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .row {
+        margin: 0 -10px; 
+    }
+
+    
+    .youtube-section {
+        background-color: #FFE6A1; 
+        padding: 40px 0; 
+        margin-bottom: 40px; 
+    }
+    
+    .youtube-section h3 {
+        border-bottom: 2px solid #333;
+        padding-bottom: 10px;
+        margin-bottom: 20px;
+        font-size: 2em;
+        text-align: center; 
+    }
+    
+    .youtube-content {
+        display: flex;
+        justify-content: space-between; 
+        flex-wrap: wrap;
+    }
+    
+    .youtube-item {
+        display: flex;
+        align-items: flex-start;
+        margin-bottom: 20px;
+        width: calc(25% - 20px); 
+    }
+    .youtube-item img {
+        width: 200px;
+        height: auto;
+        display: block;
+        margin-right: 20px;
+        cursor: pointer;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+    
+    .youtube-item div {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+    .youtube-item h3 {
+        font-size: 1.5em;
+        margin: 0 0 10px 0;
+    }
+    
+    .youtube-item p {
+        font-size: 0.9em;
+        margin: 0 0 10px 0;
+    }
+    
+    .btn-link {
+        display: inline-block;
+        padding: 10px 15px;
+        background-color: #3A4161;
+        color: white;
+        text-align: center;
+        text-decoration: none;
+        border-radius: 5px;
+        font-size: 0.9em;
+    }
+    
+    .btn-link:hover {
+        background-color: #fffaeb; /* 버튼 호버 색상 */
+    }
